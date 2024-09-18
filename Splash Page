@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandwidth Bros Verizon Internet Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        header, section, footer {
+            padding: 20px;
+        }
+        .plans div {
+            display: inline-block;
+            padding: 15px;
+            margin: 10px;
+            border: 1px solid #ccc;
+        }
+        form {
+            margin-top: 20px;
+        }
+        form input {
+            margin: 10px;
+            padding: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Get Lightning-Fast Verizon Internet Today!</h1>
+        <p>Join millions of satisfied customers and enjoy speeds up to 1Gbps.</p>
+    </header>
+
+    <section>
+        <h2>Why Choose Verizon Internet?</h2>
+        <ul>
+            <li>Reliable internet with 99.9% uptime</li>
+            <li>Blazing-fast speeds up to 1Gbps</li>
+            <li>No data caps – unlimited streaming and browsing</li>
+            <li>24/7 customer support</li>
+            <li>Easy setup and free installation</li>
+        </ul>
+    </section>
+
+    <section class="plans">
+        <h2>Choose Your Plan</h2>
+        <div>
+            <h3>Basic Plan</h3>
+            <p>$39.99/month - Speeds up to 200Mbps</p>
+        </div>
+        <div>
+            <h3>Standard Plan</h3>
+            <p>$59.99/month - Speeds up to 500Mbps</p>
+        </div>
+        <div>
+            <h3>Premium Plan</h3>
+            <p>$79.99/month - Speeds up to 1Gbps</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Sign Up Now and Get Free Installation!</h2>
+        <p>Enter your details below to start your Verizon Internet experience today!</p>
+
+        <form action="/submit_form" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="address">Installation Address:</label>
+            <input type="text" id="address" name="address" required><br>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Verizon Internet. All rights reserved. <a href="/terms">Terms</a> | <a href="/privacy">Privacy</a></p>
+    </footer>
+</body>
+</html>
